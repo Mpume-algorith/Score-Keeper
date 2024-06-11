@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Centered div in the middle of the screen -->
+                <div class="center-screen">
+                    <!-- Your content goes here -->
+                    <div class="card" style="width: 20rem;">
+                        <div class="card-body">
+                            <h5 id='score'>Score Keeper</h5><br/>
+                            <h6 class="score"><span class="score-1">0</span> - <span class="score-2">0</span></h6>
+                            <form action="" class="score-max mb-3">
+                                <label for="num">Play Up To</label>
+                                <input type="number" name="" id="num">
+                            </form>
+                            <button class="btn btn-success player-1">Player 1</button>
+                            <button class="btn btn-success player-2">Player 2</button>
+                            <button class="btn btn-danger reset">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
